@@ -44,7 +44,7 @@ Rubocop:
 ## Author
 
 * [Michgolden Ukeje](https://github.com/mikenath223)
-* [Israel Laguan](https://github.com/ChristianOtieno)
+* [Christian Otieno](https://github.com/ChristianOtieno)
 
 # License
 

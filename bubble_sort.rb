@@ -1,51 +1,21 @@
 # frozen_string_literal: true
 
 def bubble_sort(arr)
-    return arr if arr.length < 1; end
+  return arr if arr.length <= 1
 
-    i = 0
-    while true
-        if i + 1 == arr.length
-            break
-        end
-        if arr[i] > arr[i + 1]
-            arr[i], arr[i + 1] = arr[i + 1], arr[i]
-            #  yield(arr[i],arr[i + 1])
-        end
-        i += 1
+  i = 0
+  loop do
+    if i == arr.length - 1
+      break if arr == arr.sort
+
+      i = 0
     end
-    puts arr
+    arr[i], arr[i + 1] = arr[i + 1], arr[i] if arr[i] > arr[i + 1]
+    i += 1
+  end
+  yield(arr)
+end
 
-bubble_sort([4,3,78,2,0,2]) 
-# {|first,second|
-#   new_second = second
-#   second = first
-#   first = new_second
-# }
-
-# frozen_string_literal: true
-
-# def bubble_sort(arr)
-#     if arr.length < 1
-#       return arr 
-#     end
-#       i = 0
-#       while true
-#         if i + 1 == arr.length
-#           break
-#         end
-#         if arr[i] > arr[i + 1]
-#           # puts arr[i]
-#         yield(arr[i],arr[i + 1])
-#         end
-#         i += 1
-#       end
-#     puts arr
-#   end
-  
-#   bubble_sort([4,3,78,2,0,2]) {|first,second|
-#     new_second = second
-#     second = first
-#     first = new_second
-#   }
-  
+bubble_sort([4, 3, 78, 2, 0, 2]) do |arr|
+  puts arr
+end

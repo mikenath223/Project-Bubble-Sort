@@ -9,13 +9,14 @@
   <p align="center">
     A custom version of Ruby's yield method.
     <br />
-    <a href="https://github.com/mikenath223/Project-Bubble-Sort/README.md"><strong>Explore the docs �</strong></a>
+    <a href="https://github.com/mikenath223/Project-Bubble-Sort/README.md"><strong>Explore the docs 📚</strong></a>
     <br />
     <br />
+    🖊️
     <a href="https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks">Assigment</a>
-    �
+    🐛
     <a href="https://github.com/mikenath223/Project-Bubble-Sort/issues">Report Bug</a>
-    �
+    🙏
     <a href="https://github.com/mikenath223/Project-Bubble-Sort/issues">Request Feature</a>
   </p>
 </p>
@@ -41,10 +42,17 @@ Rubocop:
 * RVM
 * `vscode` with _Ruby_ and _Rubocop_ extensions
 
-## Author
+## Authors
 
-* [Michgolden Ukeje](https://github.com/mikenath223)
-* [Christian Otieno](https://github.com/ChristianOtieno)
+**Michgolden Ukeje**
+
+- GitHub: [@mikenath223](https://github.com/mikenath223)
+- Twitter: [@Michgolden_Nath](https://twitter.com/MichgoldenU)
+- LinkedIn: [Ukeje Michgolden](https://https://www.linkedin.com/in/michgoldenukeje/)
+  <br />
+
+**Christian Otieno**
+- GitHub [Christian](https://github.com/ChristianOtieno)
 
 # License
 
